@@ -1,0 +1,56 @@
+/*			
+0Normal;+0
+1Poison Resist;+7+14+21+28
+2Hit probability;+7+14+21+28
+3Defense probability;+7+14+21+28
+4HP Recovery;+7+14+21+28
+5SP Recovery;+7+14+21+28
+6MP Recovery;+7+14+21+28
+7Magic Resist;+7+14+21+28
+8Physical Absorption;+3+6+9+12
+9Magical Absorption;+3+6+9+12
+10Consectutive Attack Damage;+1+2+3+4
+11Exp;+10+20+30+40
+12Gold+10+20+30+40
+
+
+DWORD	PoisonResist	0x1100;
+DWORD	HitProb			0x2100;
+DWORD	DefProb			0x3100;
+DWORD	HPRecov			0x4100;
+DWORD	SPRecov			0x5100;
+DWORD	MPRecov			0x6100;
+DWORD	MagicResist		0x7100;
+DWORD	PhysAbsorpt		0x8100;
+DWORD	MagAbsorpt		0x9100;
+DWORD	REP				0xA100;
+DWORD	EXP				0xB100;
+DWORD	GOLD			0xC100;
+			
+*/
+/*
+	0Normal;+0
+	1Critical;+1+2+3+4
+	2Poision;+5+10+15+20
+	3Righteous;+0
+	4Agile;+0
+	5Light;+4+8+12+16
+	6Sharp;+0
+	7Strong;+7+14+21+28
+	8Ancient;+0
+	9Special (Casting Prob.);+3+6+9+12
+	10Mana Converting;+1+2+3+4
+	11Critical Increase Chance+1+2+3+4
+
+	DWORD	Agile		0x500000;
+	DWORD	Light		0x600000;
+	DWORD	Strong		0x800000;
+	DWORD	Poison		0x200000;
+	DWORD	Critical	0x100000;
+	DWORD	Sharp		0x700000;
+	DWORD	Righteous	0x300000;
+	DWORD	Ancient		0x900000;
+	DWORD	Special		0xA00000;
+	DWORD	Mana		0xB00000;
+	DWORD	CIC			0xC00000;
+*/
